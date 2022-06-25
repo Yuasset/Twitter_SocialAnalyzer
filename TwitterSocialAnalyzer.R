@@ -12,10 +12,10 @@ library(tidyverse)
 library(lubridate)
 options(RCurlOptions = list(cainfo = system.file("CurlSSL", "cacert.pem", package = "RCurl")))
 
-api_key<-"pbpfKkwzsepPzVkCcCnps8v3h"
-api_secret_key<-"GWmkj9BK4AP6ByCEjjJAjcAq1OruLHHYIrpZtv7BL1gvsxZD98"
-access_token<-"1508868869435363341-R4TR7srau5QdNkSz65HASPiiTxpNox"
-access_secret_token<-"hSwNfjmvnLwnylPD33bCmuLlvjXXyCQCSYSjhZ6c23yuj"
+api_key<-"Sansure"
+api_secret_key<-"Sansure"
+access_token<-"Sansure"
+access_secret_token<-"Sansure"
 
 setup_twitter_oauth(api_key, api_secret, access_token, access_token_secret)
 
